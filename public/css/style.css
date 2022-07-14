@@ -1,0 +1,287 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    margin-left: 20px;
+    color: #324d67;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.nav-link:hover{
+    margin-top: -4px;
+    transition: border-bottom 0.18s, border-top 0.18s, margin-top 0.2s;
+    border-bottom: 2px solid #AB7B60;
+    border-top: 1px solid #AB7B60;
+    font-weight: bold;
+}
+.logo-name:hover{
+    color: #AB7B60;
+}
+.bold{
+    letter-spacing: 1px;
+}
+.a{
+    color: initial;
+    text-decoration: none;
+}
+.a:hover{
+    color:#102a42;
+}
+.right{
+    color: #102a42;
+}
+@media (max-width: 990px) { 
+    .cart-query{
+        margin-top:20px;
+    }
+    .login-query{
+        margin-top: -10px;
+    }
+    .nav-link:hover{
+        border: none;
+        font-weight: bold;
+        margin-top: 0;
+        transition: font-weight 0.2s;
+    }
+}
+/* End Nav Bar */
+
+.comfort-title{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    color: #102a42;
+    line-height: 62px;
+    cursor: pointer;
+}
+.comfort-letter{
+    font-size: 1.2rem;
+    line-height: 40px;
+    color: #617d98;
+}
+.col1{
+    width: 50%;
+}
+.col2{
+    width: 60%;
+}
+.my-btn{
+    padding: 0.75rem 1.5rem;
+    background-color: #AB7B60;
+    border: none;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.right-home-2{
+    background-image: url('images/Wood-Oak-House.jpg');
+    width: 70%;
+    height: 100%;
+    background-size: cover;
+    margin-left: auto;
+    background-position: center;
+    cursor: pointer;
+    margin: 20px;
+}
+.right-home-1{
+    width: 30%;
+    height: 100%;
+}
+.p1{
+    width: 100%;
+    cursor: pointer;
+}
+.p2{
+    width: 100%;
+    margin-left: 90px;
+    position: relative;
+    cursor: pointer;
+}
+.p3{
+    width: 80%;
+    cursor: pointer;
+}
+@media (max-width: 990px){
+    .col2{
+        display: none !important;
+    }
+    .col1{
+        width: 100%;
+    }
+    .comfort-title{
+        margin-top: 5px;
+    }
+    .upper-image{
+        display: block !important;
+    }
+}
+/* end two column */
+
+.upper-image{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    display: initial;
+}
+.im1{
+    background-image: url('images/Home-Tours-A-Japanese-Inspired-Woody-Home-in-Tampines-3.jpg ');
+}
+.im2{
+    background-image: url('images/Woody-Creek-Slideshow.jpg');
+}
+.im3{
+    background-image: url('images/f49e3615bc73972e438cb9defa190e23.jpg');
+}
+.im4{
+    background-image: url('images/Wood-Oak-House.jpg');
+}
+/* end of upper image */
+
+.feature{
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #102a42;
+}
+.ft-uld{
+    width: 90px;
+    height: 4px;
+    background-color: #AB7B60;
+}
+/* end of feature */
+
+.thr-img{
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.thr-img1{
+    background-image: url('images/f49e3615bc73972e438cb9defa190e23.jpg');
+}
+.thr-img2{
+    background-image: url('images/Wood-Oak-House.jpg');
+}
+.thr-img3{
+    background-image: url('images/Woody-Creek-Slideshow.jpg');
+}
+.bi-search{
+    font-weight: bold;
+    color: white;
+    background: #AB7B60;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding-left: 9px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    opacity: 0;
+}
+@media (max-width: 991px){
+    .thr-search{
+        padding-top: 17% !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .thr-search{
+        padding-top: 40% !important;
+    }
+}
+/* end of three images */
+
+.custom{
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #453227;
+}
+.custom-div{
+    background-color: #eaded7;
+    margin-top: -20px;
+}
+.my-card{
+    background-color: #c5a491;
+    border-radius: 5px;
+}
+.my-icon-span{
+    width: 4rem;
+    height: 4rem;
+    display: grid;
+    margin: 0px auto 1rem;
+    place-items: center;
+    border-radius: 50%;
+    background-color: #eaded7;
+}
+.my-icon{
+    font-size: 35px;
+}
+/* end of three card */
+
+
+.join{
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 6.5rem;
+}
+.contact-form{
+    width: 90vw;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.form-input{
+    border-right: none;
+    color: #324d67;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #222;
+}
+.submit-btn{
+    background:#ab7a5f;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition:  all 0.3s linear;
+    color: #222;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #222;
+}
+
+/* -------------------------------------------------------------- */
+
+.hoab{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.hoab-bg{
+    background-color: #eaded7;
+}
+.side-img{
+    background-image: url('images/Woody-Creek-Slideshow.jpg');
+    widows: 100%;
+    height: 500px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+.story-div{
+    margin-top: 6rem;
+}
+.under-line{
+    width: 150px;
+    height: 5px;
+    background-color: #AB7B60;
+    margin-left: 3px;
+    margin-top: -5px;
+}
